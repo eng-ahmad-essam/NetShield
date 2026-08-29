@@ -1,0 +1,29 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Large local datasets and generated artifacts
+# These should be downloaded or regenerated in the deployment environment.
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Keep the trained model files tracked if they are small enough.
+# (Leave models/ unignored because they are tiny compared to raw data.)
+
+# Local env / logs
+*.log
