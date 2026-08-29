@@ -1,0 +1,18 @@
+Hierarchical System Overall Accuracy: 0.9789
+
+                precision    recall  f1-score   support
+
+      Analysis       0.19      0.19      0.19       431
+      Backdoor       0.33      0.19      0.24       397
+           DoS       0.41      0.25      0.31      1086
+      Exploits       0.78      0.87      0.82      5565
+       Fuzzers       0.40      0.84      0.54      4374
+       Generic       0.97      0.90      0.94      5008
+        Normal       1.00      0.99      0.99    391997
+Reconnaissance       0.89      0.80      0.84      2711
+     Shellcode       0.53      0.25      0.34       285
+         Worms       0.79      0.76      0.77        29
+
+      accuracy                           0.98    411883
+     macro avg       0.63      0.60      0.60    411883
+  weighted avg       0.98      0.98      0.98    411883
