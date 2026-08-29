@@ -19,6 +19,7 @@ __pycache__/
 # These should be downloaded or regenerated in the deployment environment.
 data/raw/
 data/processed/
+results/
 *.csv
 *.parquet
 
